@@ -11,17 +11,8 @@ To run this project locally, you need Python 3 and the following libraries. It i
 ### Required Packages (via pip)
 
 ```bash
-# Core data science, preprocessing, and model selection
-pip install pandas numpy matplotlib seaborn scikit-learn
-
-# Cheminformatics toolkit for descriptor generation
-# Note: RDKit is used to generate 217 molecular descriptors. 
-# RDKit installation can be complex and may be better handled via conda (conda install -c conda-forge rdkit)
-pip install rdkit-pypi
-
-# Machine Learning Models
-# Includes Linear Models, SVR, Random Forest, and advanced Gradient Boosting frameworks
-pip install xgboost lightgbm catboost
+# Install all dependencies
+pip install -r requirements.txt
 ```
 ## Methodology Summary
 
