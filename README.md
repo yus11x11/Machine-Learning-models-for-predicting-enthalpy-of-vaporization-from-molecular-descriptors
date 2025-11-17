@@ -4,6 +4,25 @@ This repository contains the code and documentation for the CHE657 course projec
 ## Project Objective
 The primary goal was to develop and evaluate ML models that can accurately and rapidly predict the enthalpy of vaporization using only a molecule's structure1.Traditional experimental measurement of Delta H_{vap} is accurate but is often slow and resource-intensive. This project sought to establish a fast, reliable, and data-driven computational method for estimating this key thermodynamic property.
 
+## 🛠️ Installation
+
+To run this project locally, you need Python 3 and the following libraries. It is highly recommended to use a virtual environment.
+
+### Required Packages (via pip)
+
+```bash
+# Core data science, preprocessing, and model selection
+pip install pandas numpy matplotlib seaborn scikit-learn
+
+# Cheminformatics toolkit for descriptor generation
+# Note: RDKit is used to generate 217 molecular descriptors. 
+# RDKit installation can be complex and may be better handled via conda (conda install -c conda-forge rdkit)
+pip install rdkit-pypi
+
+# Machine Learning Models
+# Includes Linear Models, SVR, Random Forest, and advanced Gradient Boosting frameworks
+pip install xgboost lightgbm catboost
+```
 ## Methodology Summary
 
 ### 1. Dataset and Feature Engineering
