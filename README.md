@@ -1,4 +1,4 @@
-# Machine-Learning-models-for-predicting-enthalpy-of-vaporization-from-molecular-descriptors
+# Machine Learning models for predicting enthalpy of vaporization from molecular descriptors
 This repository contains the code and documentation for the CHE657 course project focused on predicting the Enthalpy of Vaporization ($\Delta H_{vap}$) for Volatile Organic Compounds (VOCs) from their molecular structure using various Machine Learning (ML) regression techniques.
 
 ## Project Objective
